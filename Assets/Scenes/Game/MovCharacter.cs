@@ -6,16 +6,25 @@ public class MovCharacter : MonoBehaviour
 {
     public float speed = 5.0f;
     public Rigidbody2D rb;
-    public GameObject panel;
 
-    public void Update()
+    private Vector2 direction = Vector2.zero;
+
+    void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
-
-        rb.velocity = movement * speed;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            direction.x = Input.GetAxis("Horizontal");
+            direction.y = 0;
+        }
+        else if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
+        {
+            direction.y = Input.GetAxis("Vertical");
+            direction.x = 0;
+        }
     }
 
+    void FixedUpdate()
+    {
+        rb.velocity = direction * speed;
+    }
 }
