@@ -6,6 +6,7 @@ public class MovCharacter : MonoBehaviour
 {
     public float speed = 5.0f;
     public Rigidbody2D rb;
+    public GameObject panel;
 
     public void Update()
     {
@@ -16,4 +17,5 @@ public class MovCharacter : MonoBehaviour
 
         rb.velocity = movement * speed;
     }
+
 }
