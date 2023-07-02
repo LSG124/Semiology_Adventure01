@@ -8,7 +8,7 @@ public class MovCharacter : MonoBehaviour
     public Rigidbody2D rb;
 
     private Vector2 direction = Vector2.zero;
-
+   
     void Update()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
@@ -21,6 +21,11 @@ public class MovCharacter : MonoBehaviour
             direction.y = Input.GetAxis("Vertical");
             direction.x = 0;
         }
+        else 
+        {
+            direction.x = 0;
+            direction.y = 0;
+        };
     }
 
     void FixedUpdate()
