@@ -1,24 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using System.Collections;
 using System;
+using System.Collections.Generic;
 
-public class Login : MonoBehaviour
+
+
+public class RegistroAdmin : MonoBehaviour
 {
+    public string registerURL = "http://127.0.0.1:8000/adminregister";
+    public new string name = "asdasdasd";
+    public string email = "asdasd@adasdas.com";
+    public string password = "qwertyuioasdp";
+    public string passwordConfirmation = "qwertyuiop";
     public string csrfTokenURL = "http://127.0.0.1:8000/returncsrf";
-    public string loginURL = "http://127.0.0.1:8000/login";
     string csrfToken = "";
+
+    public Text name_input;
     public Text email_input;
     public Text password_input;
 
-    public GameObject panel_logeado;
+    public GameObject panel_registro;
 
     public void GetCsrfToken()
     {
         StartCoroutine(FetchCsrfToken());
     }
+
     IEnumerator FetchCsrfToken()
     {
         using (UnityWebRequest www = UnityWebRequest.Get(csrfTokenURL))
@@ -37,19 +46,20 @@ public class Login : MonoBehaviour
             else
             {
                 csrfToken = www.downloadHandler.text;
-                Debug.Log("CSRF token obtained: " + csrfToken);
-                StartCoroutine(LoginPost());
+                Debug.Log(csrfToken);
+                StartCoroutine(RegisterPost());
             }
         }
     }
-    IEnumerator LoginPost()
+    IEnumerator RegisterPost()
     {
         Dictionary<string, string> wwwForm = new Dictionary<string, string>();
         wwwForm.Add("_token", csrfToken);
+        wwwForm.Add("name", name_input.text);
         wwwForm.Add("email", email_input.text);
         wwwForm.Add("password", password_input.text);
 
-        using (UnityWebRequest www = UnityWebRequest.Post(loginURL, wwwForm))
+        using (UnityWebRequest www = UnityWebRequest.Post(registerURL, wwwForm))
         {
             yield return www.SendWebRequest();
             if (www.result != UnityWebRequest.Result.Success)
@@ -59,27 +69,14 @@ public class Login : MonoBehaviour
             else
             {
                 Debug.Log("ha funcionado" + www.downloadHandler.text);
-                //panel_registro.SetActive(true);
+                panel_registro.SetActive(true);
                 string id = www.downloadHandler.text;
                 int parsedInt = 0;
                 int.TryParse(id, out parsedInt);
                 PlayerPrefs.SetInt("id", parsedInt); //se guarda el id del nuevo usuario registrado.
-                Debug.Log("El id es   " + parsedInt);
-                panel_logeado.SetActive(true);
+                Debug.Log("El nuevo id ingresado es   " + id);
             }
         }
-
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
 
     }
 }

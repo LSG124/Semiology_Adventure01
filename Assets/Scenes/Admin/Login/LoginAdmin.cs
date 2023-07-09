@@ -5,10 +5,10 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 using System;
 
-public class Login : MonoBehaviour
+public class LoginAdmin : MonoBehaviour
 {
     public string csrfTokenURL = "http://127.0.0.1:8000/returncsrf";
-    public string loginURL = "http://127.0.0.1:8000/login";
+    public string loginURL = "http://127.0.0.1:8000/adminlogin";
     string csrfToken = "";
     public Text email_input;
     public Text password_input;
