@@ -5,17 +5,11 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 
-public class AgregarSala : MonoBehaviour
+public class NuevoNPC : MonoBehaviour
 {
-    public string salaURL = "http://127.0.0.1:8000/guardarsala";
+    public string salaURL = "http://127.0.0.1:8000/guardarnpc";
     public string csrfTokenURL = "http://127.0.0.1:8000/returncsrf";
     string csrfToken = "";
-
-    public Text name_input;
-    public Text profesor_input;
-    public Text tema_input;
-
-    public GameObject panel_nueva_sala;
 
     public void GetCsrfToken()
     {
@@ -51,10 +45,26 @@ public class AgregarSala : MonoBehaviour
         int id_admin = PlayerPrefs.GetInt("id_admin");
         Dictionary<string, string> wwwForm = new Dictionary<string, string>();
         wwwForm.Add("_token", csrfToken);
-        wwwForm.Add("admin_id", "1");
-        wwwForm.Add("nombre", name_input.text);
-        wwwForm.Add("profesor", profesor_input.text);
-        wwwForm.Add("tema", tema_input.text);
+        wwwForm.Add("sala_id", "4");
+        wwwForm.Add("diagnostico", "asdasdadasd");
+        wwwForm.Add("nombre", "asdasdadasd");
+        wwwForm.Add("body1", "asdasdadasd");
+        wwwForm.Add("body2", "asdasdadasd");
+        wwwForm.Add("body3", "asdasdadasd");
+        wwwForm.Add("ubicacion", "asdasdadasd");
+        wwwForm.Add("descripcion", "asdasdadasd");
+        wwwForm.Add("p1", "asdasdadasd");
+        wwwForm.Add("p2", "asdasdadasd");
+        wwwForm.Add("p3", "asdasdadasd");
+        wwwForm.Add("p4", "asdasdadasd");
+        wwwForm.Add("p5", "asdasdadasd");
+        wwwForm.Add("p6", "asdasdadasd");
+        wwwForm.Add("r1", "asdasdadasd");
+        wwwForm.Add("r2", "asdasdadasd");
+        wwwForm.Add("r3", "asdasdadasd");
+        wwwForm.Add("r4", "asdasdadasd");
+        wwwForm.Add("r5", "asdasdadasd");
+        wwwForm.Add("r6", "asdasdadasd");
 
         using (UnityWebRequest www = UnityWebRequest.Post(salaURL, wwwForm))
         {
@@ -66,12 +76,11 @@ public class AgregarSala : MonoBehaviour
             else
             {
                 Debug.Log("ha funcionado" + www.downloadHandler.text);
-                panel_nueva_sala.SetActive(false);
                 string id = www.downloadHandler.text;
                 int parsedInt = 0;
                 int.TryParse(id, out parsedInt);
-                PlayerPrefs.SetInt("id_sala", parsedInt); //se guarda el id del nuevo usuario registrado.
-                Debug.Log("El nuevo id sala ingresado es   " + id);
+                PlayerPrefs.SetInt("id_npc", parsedInt); //se guarda el id del nuevo usuario registrado.
+                Debug.Log("El nuevo id NPC ingresado es   " + id);
             }
         }
     }
