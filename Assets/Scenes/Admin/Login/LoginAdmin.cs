@@ -63,7 +63,7 @@ public class LoginAdmin : MonoBehaviour
                 string id = www.downloadHandler.text;
                 int parsedInt = 0;
                 int.TryParse(id, out parsedInt);
-                PlayerPrefs.SetInt("id", parsedInt); //se guarda el id del nuevo usuario registrado.
+                PlayerPrefs.SetInt("id_admin", parsedInt); //se guarda el id del nuevo usuario registrado.
                 Debug.Log("El id es   " + parsedInt);
                 panel_logeado.SetActive(true);
             }

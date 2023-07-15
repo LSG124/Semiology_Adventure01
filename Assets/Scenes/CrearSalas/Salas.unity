@@ -1099,7 +1099,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1220,7 +1220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &675145336
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1310,7 +1310,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1445,7 +1445,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2125,14 +2125,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873529829}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1678476661}
-  m_Father: {fileID: 1259164798}
-  m_RootOrder: 4
+  m_Father: {fileID: 1869556746}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.56347793, y: 0.85313153}
   m_AnchorMax: {x: 0.700169, y: 0.9671713}
@@ -2695,7 +2695,7 @@ GameObject:
   - component: {fileID: 1051633800}
   - component: {fileID: 1051633799}
   m_Layer: 5
-  m_Name: InputField (Legacy) (1)
+  m_Name: profesor_input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2716,7 +2716,7 @@ RectTransform:
   - {fileID: 1732257234}
   - {fileID: 1676001279}
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3043,7 +3043,7 @@ GameObject:
   - component: {fileID: 1115907725}
   - component: {fileID: 1115907724}
   m_Layer: 5
-  m_Name: InputField (Legacy) (2)
+  m_Name: tema_input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3064,7 +3064,7 @@ RectTransform:
   - {fileID: 1410996069}
   - {fileID: 1313666379}
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3611,7 +3611,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.043522075, y: 0.5}
   m_AnchorMax: {x: 0.29243383, y: 0.61660564}
@@ -3810,9 +3810,9 @@ RectTransform:
   - {fileID: 675145336}
   - {fileID: 1816294863}
   - {fileID: 1869556746}
-  - {fileID: 1459546711}
-  - {fileID: 873529830}
   - {fileID: 1696222268}
+  - {fileID: 1459546711}
+  - {fileID: 1489612696}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4092,7 +4092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22552207, y: 0.72843426}
   m_AnchorMax: {x: 0.53347796, y: 0.8387371}
-  m_AnchoredPosition: {x: -1.5, y: -0.87270355}
+  m_AnchoredPosition: {x: -1.5, y: -0.8726959}
   m_SizeDelta: {x: 2.1307068, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1320099658
@@ -4966,7 +4966,7 @@ RectTransform:
   m_Children:
   - {fileID: 857876281}
   m_Father: {fileID: 1259164798}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5280,12 +5280,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1816294863}
-  m_RootOrder: 0
+  m_Father: {fileID: 1259164798}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.49997, y: -176}
+  m_AnchoredPosition: {x: -1.0999455, y: -175.80002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489612697
@@ -5331,7 +5331,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1489612698}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1992110005}
+        m_TargetAssemblyTypeName: AgregarSala, Assembly-CSharp
+        m_MethodName: GetCsrfToken
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1489612698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6202,7 +6214,7 @@ RectTransform:
   - {fileID: 799741839}
   - {fileID: 1456250075}
   m_Father: {fileID: 1259164798}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6891,7 +6903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1816294863
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6904,7 +6916,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1489612696}
   - {fileID: 754493964}
   - {fileID: 2023200133}
   - {fileID: 1835477895}
@@ -6918,8 +6929,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.5999756, y: 0.19998169}
+  m_SizeDelta: {x: 1.2, y: 0.39996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816294864
 MonoBehaviour:
@@ -6941,8 +6952,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300104, guid: e6df97fc42c3320468bb655eb8680fbb, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6990,7 +7001,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7386,7 +7397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1869556746
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7405,6 +7416,7 @@ RectTransform:
   - {fileID: 1838817133}
   - {fileID: 298164282}
   - {fileID: 1733218508}
+  - {fileID: 873529830}
   m_Father: {fileID: 1259164798}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7707,6 +7719,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887679727}
   m_CullTransparentMesh: 1
+--- !u!1 &1992110004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1992110006}
+  - component: {fileID: 1992110005}
+  m_Layer: 0
+  m_Name: NuevaSala
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1992110005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992110004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1baa47dbaa0acf498f2e57d7b22d151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salaURL: http://127.0.0.1:8000/guardarsala
+  csrfTokenURL: http://127.0.0.1:8000/returncsrf
+  name_input: {fileID: 191882584}
+  profesor_input: {fileID: 1676001280}
+  tema_input: {fileID: 1313666380}
+  panel_nueva_sala: {fileID: 1816294862}
+--- !u!4 &1992110006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992110004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 360.02536, y: 214.5385, z: -0.79758555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2020436465
 GameObject:
   m_ObjectHideFlags: 0
@@ -7800,7 +7862,7 @@ GameObject:
   - component: {fileID: 2023200135}
   - component: {fileID: 2023200134}
   m_Layer: 5
-  m_Name: InputField (Legacy)
+  m_Name: nameimput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7821,7 +7883,7 @@ RectTransform:
   - {fileID: 1087278655}
   - {fileID: 191882583}
   m_Father: {fileID: 1816294863}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
