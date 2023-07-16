@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuAdmin/MenuAdmin.unity
     guid: b7a8e748c833f194881460c1d3452ec5
+  - enabled: 1
+    path: Assets/Scenes/MenuPlayer/SelectSala.unity
+    guid: 0c7081a5b43c3e947b23078e593f1739
   m_configObjects: {}
