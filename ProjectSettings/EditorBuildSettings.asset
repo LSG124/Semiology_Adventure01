@@ -36,9 +36,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/Game.unity
     guid: a445f1b9c7dfb5640b1a455d1e2394a2
   - enabled: 1
-    path: Assets/Scenes/Menu/Menu.unity
+    path: Assets/Scenes/MenuPlayer/Menu.unity
     guid: 813f41b6977996d4ebdceb043e293fc9
   - enabled: 1
     path: Assets/Scenes/CrearSalas/Salas.unity
     guid: aa32e30b91e501d4d9f9ca323a257f06
+  - enabled: 1
+    path: Assets/Scenes/MenuAdmin/MenuAdmin.unity
+    guid: b7a8e748c833f194881460c1d3452ec5
   m_configObjects: {}
