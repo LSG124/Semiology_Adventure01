@@ -58,10 +58,11 @@ public class GetDataSala : MonoBehaviour
             {
                 Debug.Log("ha funcionado" + www.downloadHandler.text);
                 string id = www.downloadHandler.text;
-                int parsedInt = 0;
-                int.TryParse(id, out parsedInt);
-                PlayerPrefs.SetInt("id_sala", parsedInt); //se guarda el id del nuevo usuario registrado.
-                Debug.Log("El id de la sala es ingresado es   " + id);
+                Debug.Log(www.downloadHandler.text);
+                //int parsedInt = 0;
+                //int.TryParse(id, out parsedInt);
+                //PlayerPrefs.SetInt("id_sala", parsedInt); //se guarda el id del nuevo usuario registrado.
+                //Debug.Log("El id de la sala es ingresado es   " + id);
             }
         }
     }
