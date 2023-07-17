@@ -16,10 +16,12 @@ public class GetAnswer : MonoBehaviour
     public Text salaid_1;
     public Text userid_1;
     public Text npcid_1;
+    public Text nombre_1;
     public Text diagnostico_2;
     public Text salaid_2;
     public Text userid_2;
     public Text npcid_2;
+    public Text nombre_2;
     private JSONNode json;
     public void GetCsrfToken()
     {
@@ -85,11 +87,13 @@ public class GetAnswer : MonoBehaviour
         npcid_1.text = json[0]["npc_id"];
         userid_1.text = json[0]["user_id"];
         salaid_1.text = json[0]["sala_id"];
+        nombre_1.text = json[0]["nombre"];
 
         //diagnostico_2.text = json[1]["diagnostico"];
         //npcid_2.text = json[1]["npc_id"];
         //userid_2.text = json[1]["user_id"];
         //salaid_2.text = json[1]["sala_id"];
+        //nombre_2.text = json[1]["nombre"];
     }
     // Start is called before the first frame update
     void Start()
