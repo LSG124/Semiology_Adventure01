@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 36350181}
   - component: {fileID: 36350180}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: pregunta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &477394731
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1407,7 +1407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &593538113
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 657473616}
   - component: {fileID: 657473615}
   m_Layer: 5
-  m_Name: Text (Legacy) (2)
+  m_Name: nombre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1563,7 +1563,7 @@ GameObject:
   - component: {fileID: 662705776}
   - component: {fileID: 662705775}
   m_Layer: 5
-  m_Name: InputField (Legacy)
+  m_Name: diagnostico
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2055,7 +2055,7 @@ GameObject:
   - component: {fileID: 990517408}
   - component: {fileID: 990517407}
   m_Layer: 5
-  m_Name: Text (Legacy) (1)
+  m_Name: descripcion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 1036578329}
   - component: {fileID: 1036578328}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: pregunta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2381,7 +2381,7 @@ GameObject:
   - component: {fileID: 1239657998}
   - component: {fileID: 1239657997}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: respuesta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2941,6 +2941,11 @@ MonoBehaviour:
   getsalaURL: http://127.0.0.1:8000/getsala
   csrfTokenURL: http://127.0.0.1:8000/returncsrf
   name_input: {fileID: 1114736141}
+  nombre: {fileID: 657473615}
+  descripcion: {fileID: 990517407}
+  respuesta: {fileID: 1239657997}
+  panel: {fileID: 477394730}
+  thisPanel: {fileID: 593538112}
 --- !u!1 &1877638264
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,13 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using System;
+using SimpleJSON;
 
 public class GetDataSala : MonoBehaviour
 {
     public string getsalaURL = "http://127.0.0.1:8000/getsala";
     public string csrfTokenURL = "http://127.0.0.1:8000/returncsrf";
     public Text name_input;
+    public Text nombre;
+    public Text descripcion;
+    public Text respuesta;
+    public GameObject panel;
+    public GameObject thisPanel;
     string csrfToken = "";
+
+    private JSONNode json;
 
     public void GetCsrfToken()
     {
@@ -57,14 +65,45 @@ public class GetDataSala : MonoBehaviour
             else
             {
                 Debug.Log("ha funcionado" + www.downloadHandler.text);
-                string id = www.downloadHandler.text;
                 Debug.Log(www.downloadHandler.text);
+                string response = www.downloadHandler.text;
+                json = JSON.Parse(response);
+
+                ProcessTopScores(json);
+
                 //int parsedInt = 0;
                 //int.TryParse(id, out parsedInt);
                 //PlayerPrefs.SetInt("id_sala", parsedInt); //se guarda el id del nuevo usuario registrado.
                 //Debug.Log("El id de la sala es ingresado es   " + id);
             }
         }
+    }
+    public void ProcessTopScores(JSONNode json)
+    {
+        // Verificar si se obtuvo una respuesta válida
+        if (json == null || !json.IsArray)
+        {
+            Debug.Log("Respuesta inválida");
+            return;
+        }
+
+        // Verificar si la cantidad de puntajes es igual a 3
+        if (json.Count != 3)
+        {
+            Debug.Log("La cantidad de puntajes no es igual a 3");
+            return;
+        }
+
+        // Asignar los valores a los objetos de texto correspondientes
+        nombre.text = json[0]["nombre"];
+        descripcion.text = json[0]["descripcion"];
+        panel.SetActive(true);
+        thisPanel.SetActive(false);
+        //nameText2.text = json[1]["name"];
+        //nameText3.text = json[2]["name"];
+        //scoreText1.text = json[0]["puntaje"].AsInt.ToString();
+        //scoreText2.text = json[1]["puntaje"].AsInt.ToString();
+        //scoreText3.text = json[2]["puntaje"].AsInt.ToString();
     }
 
     // Start is called before the first frame update
