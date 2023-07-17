@@ -16,6 +16,8 @@ public class GetDataSala : MonoBehaviour
     public Text respuesta;
     public GameObject panel;
     public GameObject thisPanel;
+    public Text p1;
+    public Text p2;
     string csrfToken = "";
 
     private JSONNode json;
@@ -97,6 +99,8 @@ public class GetDataSala : MonoBehaviour
         // Asignar los valores a los objetos de texto correspondientes
         nombre.text = json[0]["nombre"];
         descripcion.text = json[0]["descripcion"];
+        p1.text = json[0]["p1"];
+        p2.text = json[0]["p2"];
         panel.SetActive(true);
         thisPanel.SetActive(false);
         //nameText2.text = json[1]["name"];
