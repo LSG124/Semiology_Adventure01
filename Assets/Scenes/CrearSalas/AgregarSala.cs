@@ -16,6 +16,8 @@ public class AgregarSala : MonoBehaviour
     public Text tema_input;
 
     public GameObject panel_nueva_sala;
+    public GameObject panel1;
+    public GameObject panel2;
 
     public void GetCsrfToken()
     {
@@ -72,6 +74,8 @@ public class AgregarSala : MonoBehaviour
                 int.TryParse(id, out parsedInt);
                 PlayerPrefs.SetInt("id_sala", parsedInt); //se guarda el id del nuevo usuario registrado.
                 Debug.Log("El nuevo id sala ingresado es   " + id);
+                panel1.SetActive(true);
+                panel2.SetActive(true);
             }
         }
     }

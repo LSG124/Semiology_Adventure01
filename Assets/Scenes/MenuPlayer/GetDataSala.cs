@@ -89,18 +89,12 @@ public class GetDataSala : MonoBehaviour
             return;
         }
 
-        // Verificar si la cantidad de puntajes es igual a 3
-        if (json.Count != 3)
-        {
-            Debug.Log("La cantidad de puntajes no es igual a 3");
-            return;
-        }
-
         // Asignar los valores a los objetos de texto correspondientes
         nombre.text = json[0]["nombre"];
         descripcion.text = json[0]["descripcion"];
         p1.text = json[0]["p1"];
         p2.text = json[0]["p2"];
+        descripcion.text = json[0]["diagnostico"];
         panel.SetActive(true);
         thisPanel.SetActive(false);
         //nameText2.text = json[1]["name"];

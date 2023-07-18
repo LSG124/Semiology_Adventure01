@@ -8807,6 +8807,8 @@ MonoBehaviour:
   profesor_input: {fileID: 1676001280}
   tema_input: {fileID: 1313666380}
   panel_nueva_sala: {fileID: 1816294862}
+  panel1: {fileID: 1869556745}
+  panel2: {fileID: 1733218507}
 --- !u!4 &1992110006
 Transform:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class Diagnostico : MonoBehaviour
     public string getsalaURL = "http://127.0.0.1:8000/diagnostico";
     public string csrfTokenURL = "http://127.0.0.1:8000/returncsrf";
     string csrfToken = "";
+    public Text diagnostico;
 
     public void GetCsrfToken()
     {
@@ -45,7 +46,7 @@ public class Diagnostico : MonoBehaviour
     {
         Dictionary<string, string> wwwForm = new Dictionary<string, string>();
         wwwForm.Add("_token", csrfToken);
-        wwwForm.Add("diagnostico", "diagnostico jajaja");
+        wwwForm.Add("diagnostico", diagnostico.text);
         wwwForm.Add("npc_id", "3");
         wwwForm.Add("user_id", "1");
         wwwForm.Add("sala_id", "4");

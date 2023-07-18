@@ -3979,6 +3979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   getsalaURL: http://127.0.0.1:8000/diagnostico
   csrfTokenURL: http://127.0.0.1:8000/returncsrf
+  diagnostico: {fileID: 1705601914}
 --- !u!4 &1923965379
 Transform:
   m_ObjectHideFlags: 0
