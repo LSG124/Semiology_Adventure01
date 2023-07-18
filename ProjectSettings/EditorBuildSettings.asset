@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuAdmin/Respuestas.unity
     guid: e50d5f821e13abe4897508454c4426c1
+  - enabled: 1
+    path: Assets/Scenes/Game/controles.unity
+    guid: 4778f86a4b71fb74f83cbbca12dbeb37
   m_configObjects: {}

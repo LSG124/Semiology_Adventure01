@@ -2447,12 +2447,12 @@ MonoBehaviour:
   salaid_1: {fileID: 2127254106}
   userid_1: {fileID: 724902897}
   npcid_1: {fileID: 81926961}
-  nombre_1: {fileID: 0}
+  nombre_1: {fileID: 547058846}
   diagnostico_2: {fileID: 841667824}
   salaid_2: {fileID: 955372014}
   userid_2: {fileID: 379438070}
   npcid_2: {fileID: 610491328}
-  nombre_2: {fileID: 0}
+  nombre_2: {fileID: 684033574}
 --- !u!1 &1562032529
 GameObject:
   m_ObjectHideFlags: 0
