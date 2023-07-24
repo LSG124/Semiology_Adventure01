@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cee4a0fff1cdf9742a908a2b035039d0
+guid: 0b0124dd147b1ef4595fc015f922bf1c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AdministradorV2_0
+      name: REGISTRARSE_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 1440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5d9d91cc2544439ee05784e8554f7
+      internalID: 1698846548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGISTRARSE_1_1
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 500
+        width: 1440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cdc39524501b34f86f319ce5c42533
+      internalID: -1804877806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGISTRARSE_1_2
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 500
+        width: 1440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052f0a6294d0ba04cbd78360ce86942b
+      internalID: -1436378615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGISTRARSE_1_3
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 500
+        width: 1440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b010080bc0fb04fbcaec0a2e812dfd
+      internalID: 136309210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGISTRARSE_1_4
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 500
+        width: 1440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cf4d9141c501e488c41e4f2d70f4ff
+      internalID: -1178807517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGISTRARSE_1_5
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 500
+        width: 1440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b61d1872d71a374db53afa7925be90c
+      internalID: -955747342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGISTRARSE_1_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1220
-        height: 480
+        width: 1440
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70833d1c8d0e4b3438655aee0a29475f
-      internalID: -231977612
+      spriteID: 392041c8f1d5cf6409d8f21f00e1ef8e
+      internalID: 289739896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_1
+      name: REGISTRARSE_1_7
       rect:
         serializedVersion: 2
-        x: 1220
+        x: 1440
         y: 0
-        width: 1220
-        height: 480
+        width: 1440
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd10a9ba894afb48ba1972586db91b8
-      internalID: -899882091
+      spriteID: 956c8ed4fa756cb4ca1cad7b7f9e824d
+      internalID: 82775361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_2
+      name: REGISTRARSE_1_8
       rect:
         serializedVersion: 2
-        x: 2440
+        x: 2880
         y: 0
-        width: 1220
-        height: 480
+        width: 1440
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b81e3e859b684c14bb0544a1fdefce54
-      internalID: -1785815522
+      spriteID: 5ca23908c5363f748bb1c58468ac9414
+      internalID: 742027275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_3
+      name: REGISTRARSE_1_9
       rect:
         serializedVersion: 2
-        x: 3660
+        x: 4320
         y: 0
-        width: 1220
-        height: 480
+        width: 1440
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6213132c7018ac941b380685031e3989
-      internalID: 1734399140
+      spriteID: b2fb8e6906689804ea276dd19b3e6151
+      internalID: -2092134928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_4
+      name: REGISTRARSE_1_10
       rect:
         serializedVersion: 2
-        x: 4880
+        x: 5760
         y: 0
-        width: 1220
-        height: 480
+        width: 1440
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4481c8588e0ef4f4eb3cd4b1ccd30849
-      internalID: -962566682
+      spriteID: 59bdfb4b66c5a1e4eb1fb5138bf907ff
+      internalID: 2128301705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_5
+      name: REGISTRARSE_1_11
       rect:
         serializedVersion: 2
-        x: 6100
+        x: 7200
         y: 0
-        width: 1220
-        height: 480
+        width: 1440
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac8d789fc0037984a8a371ab0a869272
-      internalID: 1846418412
+      spriteID: 3d4f89045587f8b429a0b8b2b8957356
+      internalID: 1268763843
       vertices: []
       indices: 
       edges: []
@@ -253,12 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AdministradorV2_0: -231977612
-      AdministradorV2_1: -899882091
-      AdministradorV2_2: -1785815522
-      AdministradorV2_3: 1734399140
-      AdministradorV2_4: -962566682
-      AdministradorV2_5: 1846418412
+      REGISTRARSE_1_0: 1698846548
+      REGISTRARSE_1_1: -1804877806
+      REGISTRARSE_1_10: 2128301705
+      REGISTRARSE_1_11: 1268763843
+      REGISTRARSE_1_2: -1436378615
+      REGISTRARSE_1_3: 136309210
+      REGISTRARSE_1_4: -1178807517
+      REGISTRARSE_1_5: -955747342
+      REGISTRARSE_1_6: 289739896
+      REGISTRARSE_1_7: 82775361
+      REGISTRARSE_1_8: 742027275
+      REGISTRARSE_1_9: -2092134928
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

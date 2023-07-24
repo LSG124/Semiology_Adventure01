@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cee4a0fff1cdf9742a908a2b035039d0
+guid: daffa9245d7ffb24ead70d2ceb643401
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AdministradorV2_0
+      name: INICIAR SESION_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1220
-        height: 480
+        width: 1460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70833d1c8d0e4b3438655aee0a29475f
-      internalID: -231977612
+      spriteID: d43b5f8733cbc214abff2bb04632c7c6
+      internalID: 664634220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_1
+      name: INICIAR SESION_1_1
       rect:
         serializedVersion: 2
-        x: 1220
+        x: 1460
         y: 0
-        width: 1220
-        height: 480
+        width: 1460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd10a9ba894afb48ba1972586db91b8
-      internalID: -899882091
+      spriteID: 5c8af35c22b849b4f905724761c8417d
+      internalID: -1300108690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_2
+      name: INICIAR SESION_1_2
       rect:
         serializedVersion: 2
-        x: 2440
+        x: 2920
         y: 0
-        width: 1220
-        height: 480
+        width: 1460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b81e3e859b684c14bb0544a1fdefce54
-      internalID: -1785815522
+      spriteID: 0185c92189defc546adf865a681c9180
+      internalID: -382466256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_3
+      name: INICIAR SESION_1_3
       rect:
         serializedVersion: 2
-        x: 3660
+        x: 4380
         y: 0
-        width: 1220
-        height: 480
+        width: 1460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6213132c7018ac941b380685031e3989
-      internalID: 1734399140
+      spriteID: dcd045b772611a040b11c15795ed63e4
+      internalID: 36423511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_4
+      name: INICIAR SESION_1_4
       rect:
         serializedVersion: 2
-        x: 4880
+        x: 5840
         y: 0
-        width: 1220
-        height: 480
+        width: 1460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4481c8588e0ef4f4eb3cd4b1ccd30849
-      internalID: -962566682
+      spriteID: fc5277c33531784488985e00da47a80e
+      internalID: -257298667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AdministradorV2_5
+      name: INICIAR SESION_1_5
       rect:
         serializedVersion: 2
-        x: 6100
+        x: 7300
         y: 0
-        width: 1220
-        height: 480
+        width: 1460
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac8d789fc0037984a8a371ab0a869272
-      internalID: 1846418412
+      spriteID: e9ff267f2ea016c47a002383feb2ffdf
+      internalID: 2126792184
       vertices: []
       indices: 
       edges: []
@@ -253,12 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AdministradorV2_0: -231977612
-      AdministradorV2_1: -899882091
-      AdministradorV2_2: -1785815522
-      AdministradorV2_3: 1734399140
-      AdministradorV2_4: -962566682
-      AdministradorV2_5: 1846418412
+      INICIAR SESION_1_0: 664634220
+      INICIAR SESION_1_1: -1300108690
+      INICIAR SESION_1_2: -382466256
+      INICIAR SESION_1_3: 36423511
+      INICIAR SESION_1_4: -257298667
+      INICIAR SESION_1_5: 2126792184
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
