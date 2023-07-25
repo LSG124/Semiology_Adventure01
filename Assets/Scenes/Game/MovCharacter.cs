@@ -15,8 +15,8 @@ public class MovCharacter : MonoBehaviour
     public GameObject finalCueva;
     public GameObject panelFinal;
 
-    public float fadeInDuration = 1.5f;  // Duración del fade-in en segundos
-    public float fadeOutDuration = 1.5f; // Duración del fade-out en segundos
+    public float fadeInDuration = 2f;  // Duración del fade-in en segundos
+    public float fadeOutDuration = 2f; // Duración del fade-out en segundos
     public float delayTime = 1f;       // Tiempo de espera antes de iniciar el fade-out
 
     public GameObject panel;
@@ -109,6 +109,8 @@ public class MovCharacter : MonoBehaviour
     public void MoverFinal()
     {
 
+        speed = 15.0f;
+
         if (llamado == 0)
         {
             StartFadeInAndOut();
@@ -132,7 +134,7 @@ public class MovCharacter : MonoBehaviour
         {
             finalCueva.SetActive(false);
         }
-        if (distancia < 7f)
+        if (distancia < 4f)
         {
             panelFinal.SetActive(true);
         }
