@@ -61,7 +61,8 @@ public class CambiarTexto : MonoBehaviour
             PlayerPrefs.SetInt("npcs",npcs);
             if (npcs == 2)
             {
-                panelfinaljuego.SetActive(true);
+                //panelfinaljuego.SetActive(true);
+                //
             }
         }
 
