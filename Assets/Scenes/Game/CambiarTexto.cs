@@ -11,11 +11,13 @@ public class CambiarTexto : MonoBehaviour
     public GameObject panelPreguntas;
     public GameObject panelDiagnostico;
     public GameObject panelFinal;
+    public GameObject panelfinaljuego;
     private void Start()
     {
         // Establecer el primer texto de la lista al inicio del juego
         indiceActual = 0;
         textoElemento.text = listaTextos[indiceActual];
+        PlayerPrefs.SetInt("npcs", 0);
     }
 
     public void CambiarTextoElemento()
@@ -54,6 +56,13 @@ public class CambiarTexto : MonoBehaviour
         {
             // Si se alcanza el último elemento de la lista, cerrar el panel
             panelFinal.SetActive(false);
+            int npcs = PlayerPrefs.GetInt("npcs");
+            npcs++;
+            PlayerPrefs.SetInt("npcs",npcs);
+            if (npcs == 2)
+            {
+                panelfinaljuego.SetActive(true);
+            }
         }
 
         // Actualizar el texto del elemento con el texto correspondiente en la lista
